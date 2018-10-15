@@ -13,6 +13,3 @@ import midnightCoderTheme from 'typography-theme-midnight-coder'
 
 const typography = new Typography(midnightCoderTheme)
 ```
-## More on theme
-
-Midnight Coder uses "<a href='https://fonts.google.com/specimen/Merriweather'>Merriweather</a>" for headers and "<a href='https://fonts.google.com/specimen/Merriweather'>Merriweather</a>" for body text
