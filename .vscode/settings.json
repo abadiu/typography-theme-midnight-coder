@@ -1,0 +1,7 @@
+{
+  "beautify.tabSize": 2,
+  "editor.tabSize": 2,
+  "standard.autoFixOnSave": true,
+  "standardFormat.formatOnSave": true,
+  "eslint.enable": false,
+}
