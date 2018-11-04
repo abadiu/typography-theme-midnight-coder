@@ -30,11 +30,11 @@ const theme: OptionsType = {
     },
     blockquote: {
       ...scale(1 / 5),
-      color: gray(41),
+      color: 'hsla(0, 0%, 87%, 1)',
       fontStyle: 'italic',
       paddingLeft: rhythm(13 / 16),
       marginLeft: rhythm(-1),
-      borderLeft: `${rhythm(3 / 16)} solid ${gray(10)}`,
+      borderLeft: `${rhythm(3 / 16)} solid ${'hsla(0, 0%, 87%, 1)'}`,
     },
     'blockquote > :last-child': {
       marginBottom: 0,

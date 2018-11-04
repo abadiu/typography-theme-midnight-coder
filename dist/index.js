@@ -45,11 +45,11 @@ var theme = {
         fontFamily: ['Source Code Pro', 'sans-serif'].join(',')
       },
       blockquote: _extends({}, scale(1 / 5), {
-        color: (0, _grayPercentage2.default)(41),
+        color: 'hsla(0, 0%, 87%, 1)',
         fontStyle: 'italic',
         paddingLeft: rhythm(13 / 16),
         marginLeft: rhythm(-1),
-        borderLeft: rhythm(3 / 16) + ' solid ' + (0, _grayPercentage2.default)(10)
+        borderLeft: rhythm(3 / 16) + ' solid ' + 'hsla(0, 0%, 87%, 1)'
       }),
       'blockquote > :last-child': {
         marginBottom: 0
