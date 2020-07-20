@@ -18,31 +18,39 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var theme = {
   title: 'Midnight Coder',
-  baseFontSize: '16px',
+  baseFontSize: '18px',
   baseLineHeight: 1.75,
   scaleRatio: 5 / 2,
   googleFonts: [{
     name: 'Source Code Pro',
-    styles: ['700']
+    styles: ['700', '900']
   }, {
-    name: 'Open Sans',
-    styles: ['400', '400i', '700', '700i', '900', '900i']
+    name: 'Source Sans Pro',
+    styles: ['300', '400', '700']
   }],
   headerFontFamily: ['Source Code Pro', 'serif'],
-  bodyFontFamily: ['Open Sans', 'sans-serif'],
-  bodyColor: 'hsla(0, 0%, 87%, 1)',
+  bodyFontFamily: ['Source Sans Pro', 'sans-serif'],
+  bodyColor: 'hsla(0,0%,0%,0.9)',
   headerWeight: 900,
-  bodyWeight: 400,
+  bodyWeight: 300,
   boldWeight: 700,
-  overrideStyles: function overrideStyles(_ref, options) {
+  overrideStyles: function overrideStyles(_ref) {
     var _ref2;
 
-    var adjustFontSizeTo = _ref.adjustFontSizeTo,
-        scale = _ref.scale,
+    var scale = _ref.scale,
         rhythm = _ref.rhythm;
     return _ref2 = {
-      h1: {
-        fontFamily: ['Source Code Pro', 'sans-serif'].join(',')
+      html: {
+        '-webkit-font-smoothing': 'antialiased'
+      },
+      body: {
+        letterSpacing: '.03em'
+      },
+      a: {
+        color: '#aa04dc'
+      },
+      'a:hover': {
+        color: '#000'
       },
       blockquote: _extends({}, scale(1 / 5), {
         color: 'hsla(0, 0%, 87%, 1)',
