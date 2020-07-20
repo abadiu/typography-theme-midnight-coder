@@ -1,4 +1,4 @@
-import gray from 'gray-percentage';
+// import gray from 'gray-percentage';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 const theme = {
   title: 'Midnight Coder',
@@ -14,7 +14,7 @@ const theme = {
   }],
   headerFontFamily: ['Source Code Pro', 'serif'],
   bodyFontFamily: ['Source Sans Pro', 'sans-serif'],
-  bodyColor: 'hsla(0,0%,0%,0.9)',
+  bodyColor: 'hsla(0,0%,6%,0.9)',
   headerWeight: 900,
   bodyWeight: 300,
   boldWeight: 700,
@@ -74,6 +74,7 @@ const theme = {
     h6: {
       fontStyle: 'italic'
     },
+    // eslint-disable-next-line
     a: {
       boxShadow: '0 1px 0 0 currentColor',
       color: '#66D9EF',

@@ -1,8 +1,8 @@
-import gray from 'gray-percentage';
+// import gray from 'gray-percentage';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 const theme = {
   title: 'Midnight Coder',
-  baseFontSize: '18px',
+  baseFontSize: '20px',
   baseLineHeight: 1.75,
   scaleRatio: 5 / 2,
   googleFonts: [{
@@ -28,6 +28,7 @@ const theme = {
     body: {
       letterSpacing: '.03em'
     },
+    // eslint-disable-next-line
     a: {
       color: '#aa04dc'
     },
