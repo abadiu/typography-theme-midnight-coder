@@ -99,4 +99,4 @@ const theme: OptionsType = {
   }),
 }
 
-export default theme;
+export default MidnightCoder;

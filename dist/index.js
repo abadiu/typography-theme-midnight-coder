@@ -106,4 +106,4 @@ var theme = {
   }
 };
 
-exports.default = theme;
+exports.default = MidnightCoder;
