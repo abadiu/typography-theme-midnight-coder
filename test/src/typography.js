@@ -1,5 +1,5 @@
 import Typography from 'typography'
-import MidnightCoder from 'typography-theme-midnight-coder'
+import MidnightCoder from './theme'
 
 import "typeface-source-code-pro"
 import "typeface-source-sans-pro"

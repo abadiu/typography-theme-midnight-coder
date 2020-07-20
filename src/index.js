@@ -39,7 +39,7 @@ const theme: OptionsType = {
 		},
 		blockquote: {
       ...scale(1 / 5),
-      color: 'hsla(0, 0%, 87%, 1)',
+      color: 'gray',
       fontStyle: 'italic',
       paddingLeft: rhythm(13 / 16),
       marginLeft: rhythm(-1),
@@ -49,9 +49,6 @@ const theme: OptionsType = {
       marginBottom: 0,
     },
     'blockquote cite': {
-      ...adjustFontSizeTo(options.baseFontSize),
-      color: options.bodyColor,
-      fontWeight: options.bodyWeight,
     },
     'blockquote cite:before': {
       content: '"— "',
