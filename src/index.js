@@ -3,7 +3,7 @@ import type { OptionsType } from '../Types';
 import gray from 'gray-percentage';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 
-const MidnightCoder: OptionsType = {
+const theme: OptionsType = {
 	title: 'Midnight Coder',
 	baseFontSize: '18px',
   baseLineHeight: 1.75,
@@ -99,4 +99,4 @@ const MidnightCoder: OptionsType = {
   }),
 }
 
-export default MidnightCoder;
+export default theme;
